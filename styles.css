@@ -1,0 +1,112 @@
+/* Reset some default styles and apply a global box-sizing rule */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with the provided background color and text color */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C363F; /* Dark Slate Gray */
+    color: #F2F5EA; /* Light Cream */
+}
+
+/* Style the header with the provided background color and center the text */
+header {
+    background-color: #E75A7C; /* Rose Red */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation bar with the provided background color, center the content, and add some spacing */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #D6DBD2; /* Light Grayish Green */
+    padding: 10px;
+}
+
+/* Style the navigation links with the provided text color, remove underlines, and add spacing */
+nav a {
+    color: #000; /* Black */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Style the links to override default link color */
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: #F2F5EA; /* Change link color on hover, active, and focus states */
+}
+
+/* Style the sections with padding and text-align center */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the heading with the provided color */
+h1 {
+    color: #F2F5EA; /* Light Cream */
+}
+
+/* Style the paragraphs with font size and line height */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Style the footer with the provided background color, padding, and center the text */
+footer {
+    background-color: #2C363F; /* Dark Slate Gray */
+    padding: 20px;
+    text-align: center;
+    color: #F2F5EA; /* Light Cream */
+}
+
+/* Additional styles for the releases section */
+#releases ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#releases li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#releases img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#releases p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #F2F5EA; /* Same color as h1 */
+}
+
+/* Styles for the social icons */
+#social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#social-icons a {
+    color: #FFF; /* White */
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+#social-icons a:hover {
+    color: #E75A7C; /* Change icon color on hover */
+}
